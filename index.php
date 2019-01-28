@@ -1,1 +1,1 @@
-echo 'Berhasil! :)';
+Hai Nakal Tapi Tampan :)

@@ -1,1 +1,2 @@
-Hai Nakal Tapi Tampan :)
+<?
+echo 'Hai Nakal Tapi Tampan :)';

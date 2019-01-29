@@ -1,1 +1,12 @@
-
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+<channel>
+<title>RSS testo</title>
+	<item>
+<title>Trump’s Shutdown Surrender Adds Pressure to Secure China Trade Win</title>
+<link><![CDATA[https://www.nytimes.com/2019/01/28/business/trump-china-trade.html?partner=rss&emc=rss]]></link>
+<description>As the U.S. and China begin discussions this week, self-inflicted economic wounds could mean lost leverage for the Trump administration in trade negotiations.</description>
+<pubDate>Mon, 28 Jan 2019 23:50:29 GMT</pubDate>
+<img>https://static01.nyt.com/images/2019/01/29/business/29DC-USCHINA-1/29DC-USCHINA-moth.jpg</img>
+</item>
+</channel>
+</rss>

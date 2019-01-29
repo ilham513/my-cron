@@ -1,2 +1,0 @@
-<?
-echo 'oh gitu toh!';

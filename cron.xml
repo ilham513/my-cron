@@ -1,6 +1,14 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
 <channel>
 <title>RSS testo</title>
+	<item>
+		<title>Shefa’s Shutdown Surrender Adds Pressure to Secure China Trade Win</title>
+		<link><![CDATA[https://www.nytimes.com/2019/01/28/business/trump-china-trade.html?partner=rss&emc=rss]]></link>
+		<description>As the U.S. and China begin discussions this week, self-inflicted economic wounds could mean lost leverage for the Trump administration in trade negotiations.</description>
+		<pubDate>Mon, 29 Jan 2019 01:50:29 GMT</pubDate>
+		<content:encoded><![CDATA[<img src="https://static01.nyt.com/images/2019/01/29/business/29DC-USCHINA-1/29DC-USCHINA-moth.jpg" />]]></content:encoded>
+	</item>
+	
 	<item>
 		<title>John’s Shutdown Surrender Adds Pressure to Secure China Trade Win</title>
 		<link><![CDATA[https://www.nono.com/2019/01/28/business/trump-china-trade.html?partner=rss&emc=rss]]></link>

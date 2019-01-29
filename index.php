@@ -9,6 +9,7 @@ if ($handle) {
 	$ed = "\n</channel>\n</rss>";
 	$isi = $op. "<item>\n"."\n</item>" .$ed;
 	fwrite ($handle, $isi);
+	fwrite ($handle, 'Ini Isinya');
 	echo '<b>Upadate: '.date("H:i/d-m").'</b>'; 
 } else {
 	echo 'error statmenect';}

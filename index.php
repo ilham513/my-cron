@@ -11,7 +11,7 @@ foreach ($file as $value) {
 		
 		$jdl = $item -> title;
 		$lnk = $item -> link;
-		$lnk = str_repleace("?partner=rss&emc=rss","",$lnk);
+		$lnk = str_replace("?partner=rss&emc=rss","",$lnk);
 		$des = $item -> description;
 		$tgl = $item -> pubDate;
 		$img = $item -> children('media', TRUE) -> content-> attributes() -> url;

@@ -10,6 +10,7 @@ foreach ($file as $value) {
 		$item = $value-> item[$i];
 		
 		$jdl = $item -> title;
+		$jdl = str_replace("&"," and ",$jdl);
 		$lnk = $item -> link;
 		$lnk = str_replace("&","&amp;",$lnk);
 		$des = $item -> description;

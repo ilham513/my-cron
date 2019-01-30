@@ -14,6 +14,7 @@ foreach ($file as $value) {
 		$lnk = $item -> link;
 		$lnk = str_replace("&","&amp;",$lnk);
 		$des = $item -> description;
+		$des = str_replace("&"," and ",$des);
 		$tgl = $item -> pubDate;
 		$img = $item -> children('media', TRUE) -> content-> attributes() -> url;
 
@@ -42,4 +43,4 @@ foreach($isi as $isi){
 $myitem = implode("\n",$myitem);
 $myitem = $opn."\n".$lbd[0]."\n".$myitem."\n".$end;
 fwrite ($handle, $myitem);
-echo '<b>Berhasil di-Upadate: '.date("H:i/d-m").'</b>'; 
+echo '<b>Udah di-Upadate: '.date("H:i/d-m").'</b>'; 

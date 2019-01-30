@@ -17,7 +17,8 @@ foreach ($file as $value) {
 		$img = $item -> children('media', TRUE) -> content-> attributes() -> url;
 
 		$jdl = '<title>'.$jdl.'</title>';
-		$lnk = '<link><![CDATA['.$lnk.']]></link>';
+		//$lnk = '<link><![CDATA['.$lnk.']]></link>';
+		$lnk = '<link>'.$lnk.'</link>';
 		$des = '<description>'.$des.'</description>';
 		$lbd[] = '<lastBuildDate>'.$tgl.'</lastBuildDate>';
 		$tgl = '<pubDate>'.$tgl.'</pubDate>';

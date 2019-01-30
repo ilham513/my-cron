@@ -4,7 +4,7 @@ $opn = '<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://sea
 "\n<channel>\n<title>RSS testo</title>";
 $end = "\n</channel>\n</rss>";
 
-$file = simplexml_load_file("Business.xml");
+$file = simplexml_load_file("http://rss.nytimes.com/services/xml/rss/nyt/Business.xml");
 foreach ($file as $value) {
 	for($i=0;$i<5;$i++){
 		$item = $value-> item[$i];

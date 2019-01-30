@@ -42,4 +42,4 @@ foreach($isi as $isi){
 $myitem = implode("\n",$myitem);
 $myitem = $opn."\n".$lbd[0]."\n".$myitem."\n".$end;
 fwrite ($handle, $myitem);
-echo '<b>Berhasil Upadate: '.date("H:i/d-m").'</b>'; 
+echo '<b>Berhasil di-Upadate: '.date("H:i/d-m").'</b>'; 

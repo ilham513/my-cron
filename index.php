@@ -4,7 +4,7 @@ $opn = '<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://sea
 "\n<channel>\n<title>RSS testo</title>";
 $end = "\n</channel>\n</rss>";
 
-$file = simplexml_load_file("http://rss.nytimes.com/services/xml/rss/nyt/Business.xml");
+$file = simplexml_load_file("https://queryfeed.net/instagram?q=idcloudhost");
 foreach ($file as $value) {
 	for($i=0;$i<5;$i++){
 		$item = $value-> item[$i];
@@ -16,7 +16,7 @@ foreach ($file as $value) {
 		$des = $item -> description;
 		$des = str_replace("&"," and ",$des);
 		$tgl = $item -> pubDate;
-		$img = $item -> children('media', TRUE) -> content-> attributes() -> url;
+		$img = $item -> enclosure -> attributes() -> url;
 
 		$jdl = '<title>'.$jdl.'</title>';
 		//$lnk = '<link><![CDATA['.$lnk.']]></link>';

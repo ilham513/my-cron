@@ -16,6 +16,7 @@ foreach ($file as $value) {
 		$des = $item -> description;
 		$des = str_replace("&"," and ",$des);
 		$tgl = $item -> pubDate;
+		$tgl = str_replace("+0000","GMT",$tgl);
 		$img = $item -> enclosure -> attributes() -> url;
 
 		$jdl = '<title>'.$jdl.'</title>';
